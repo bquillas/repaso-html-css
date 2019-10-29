@@ -1,0 +1,158 @@
+p {
+    color: blue;
+  }
+#miestilo {
+    color: greenyellow;
+}
+  /* This is a single-line comment */
+
+.center{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+body {
+    background-color: linen;
+  }
+
+  h1 {
+    color: maroon;
+    margin-left: 40px;
+  }
+
+  .box-example {
+    width: 400px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
+
+
+  /*Border*/
+  .example-1 {
+    border: 1px solid black;
+    }
+    .example-2 {
+    border-bottom: 1px solid blue;
+    }
+    .example-3 {
+    border: 1px solid grey;
+    border-radius: 15px;
+    }
+    .example-4 {
+    border-left: 5px solid purple;
+    }
+
+    .example-5 {
+        border-top: 3px solid blue;;
+        border-right: 3px solid red;;
+        border-bottom: 3px solid green;;
+        border-left: 3px solid orange;;
+        margin: 25px 50px 75px 100px;
+      }
+    /*Margin*/
+    .margin-example {
+        margin-left: 60px;
+        margin-bottom: 10px;
+        border: 1px solid red;
+      }
+    /*Padding*/
+    .padding-example {
+        padding: 60px;
+        border: 1px solid red;
+      }
+/*Height and width*/
+.example-1-w {
+    width: 100%;
+    height: 200px;
+    background-color: powderblue;
+    text-align: justify;
+  }
+    /*Text*/
+    .uppercase-example {
+        text-transform: uppercase;
+      }
+      
+      .lowercase-example {
+        text-transform: lowercase;
+      }
+      
+      .capitalize-example {
+        text-transform: capitalize;
+      }
+/*=== Display ===
+Un elemento de nivel de bloque siempre comienza en una nueva línea y ocupa todo el ancho disponible (se extiende hacia la izquierda y hacia la derecha tanto como sea posible).
+
+El elemento <div> es un elemento de nivel de bloque.
+Ejemplos de elementos a nivel de bloque:
+
+<div>
+<h1> - <h6>
+<p>
+<form>
+<encabezado>
+<footer>
+<sección>
+*/
+
+/*position*/
+.example-static {
+    position: static;
+  }
+
+  .example-relative {
+    position: relative;
+    left: 30px;
+  }
+
+.example-fixed {
+position: fixed;
+bottom: 40px;
+right: 0;
+width: 300px;
+border: 3px solid rgb(33, 77, 173);
+background-color: rgb(199, 199, 233)
+}
+
+.example-relative-2 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid rgb(87, 33, 173);
+    }
+    
+.example-absolute {
+position: absolute;
+top: 80px;
+right: 0;
+width: 200px;
+height: 100px;
+border: 3px solid rgb(87, 33, 173);
+}
+
+/*Overflow*/
+.example-overflow-1 {
+width: 200px;
+height: 50px;
+background-color: #eee;
+overflow: visible;
+}
+.example-overflow-2 {
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    overflow: hidden;
+    }
+.example-overflow-3 {
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    overflow: scroll;
+    }
+.example-overflow-4 {
+    width: 200px;
+    height: 100px;
+    background-color: #eee;
+    overflow-y: scroll;
+    }
